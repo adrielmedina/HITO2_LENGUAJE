@@ -1,0 +1,2857 @@
+{
+    "pedidos": {
+      "2021": {
+        "trimestre_1": [
+          {
+            "cliente": {
+              "nombre": "Julia",
+              "apellidos": "Arroyo",
+              "telefono": "123456789",
+              "direccion": {
+                "calle": "Calle 1",
+                "ciudad": "Madrid",
+                "codigo_postal": "28021",
+                "provincia": "Madrid"
+              },
+              "correo_electronico": "julia@example.com",
+              "fecha_inclusion": "2021-01-01",
+              "recurrente": true
+            },
+            "detalle_pedido": {
+              "numero_pedido": "001",
+              "fecha_compra": "2021-01-01",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 50,
+              "productos": [
+                {
+                  "nombre": "Producto 1",
+                  "referencia": "REF001",
+                  "precio": 20,
+                  "unidades": 2
+                },
+                {
+                  "nombre": "Producto 2",
+                  "referencia": "REF002",
+                  "precio": 10,
+                  "unidades": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "nuevo_pedido": {
+        "cliente": {
+          "nombre": "Elena",
+          "apellidos": "Fernández",
+          "telefono": "654987321",
+          "direccion": {
+            "calle": "Calle Mayor",
+            "ciudad": "Valencia",
+            "codigo_postal": "46003",
+            "provincia": "Valencia"
+          },
+          "correo_electronico": "elena@example.com",
+          "fecha_inclusion": "2021-02-20",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "005",
+          "fecha_compra": "2021-02-25",
+          "fecha_entrega": "2021-03-05",
+          "total_factura": 100,
+          "productos": [
+            {
+              "nombre": "Producto 14",
+              "referencia": "REF014",
+              "precio": 40,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 15",
+              "referencia": "REF015",
+              "precio": 60,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido2": {
+        "cliente": {
+          "nombre": "Laura",
+          "apellidos": "González",
+          "telefono": "654321987",
+          "direccion": {
+            "calle": "Avenida de la Playa",
+            "ciudad": "Málaga",
+            "codigo_postal": "29001",
+            "provincia": "Málaga"
+          },
+          "correo_electronico": "laura@example.com",
+          "fecha_inclusion": "2021-03-01",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "004",
+          "fecha_compra": "2021-03-05",
+          "fecha_entrega": "2021-03-15",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 10",
+              "referencia": "REF010",
+              "precio": 40,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 11",
+              "referencia": "REF011",
+              "precio": 20,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido3": {
+        "cliente": {
+          "nombre": "Marcos",
+          "apellidos": "Ruiz",
+          "telefono": "123456789",
+          "direccion": {
+            "calle": "Calle del Sol",
+            "ciudad": "Madrid",
+            "codigo_postal": "28002",
+            "provincia": "Madrid"
+          },
+          "correo_electronico": "marcos@example.com",
+          "fecha_inclusion": "2021-01-04",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "004",
+          "fecha_compra": "2021-01-04",
+          "fecha_entrega": "2021-01-12",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 12",
+              "referencia": "REF012",
+              "precio": 35,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 13",
+              "referencia": "REF013",
+              "precio": 45,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido4": {
+        "cliente": {
+          "nombre": "Juan",
+          "apellidos": "Pérez",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle de la Montaña",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48001",
+            "provincia": "Vizcaya"
+          },
+          "correo_electronico": "juan@example.com",
+          "fecha_inclusion": "2021-01-03",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "003",
+          "fecha_compra": "2021-01-05",
+          "fecha_entrega": "2021-01-15",
+          "total_factura": 70,
+          "productos": [
+            {
+              "nombre": "Producto 8",
+              "referencia": "REF008",
+              "precio": 35,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 9",
+              "referencia": "REF009",
+              "precio": 20,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido5": {
+        "cliente": {
+          "nombre": "Pedro",
+          "apellidos": "García",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Avenida Principal",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08001",
+            "provincia": "Barcelona"
+          },
+          "correo_electronico": "pedro@example.com",
+          "fecha_inclusion": "2021-02-15",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "002",
+          "fecha_compra": "2021-02-20",
+          "fecha_entrega": "2021-02-28",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 3",
+              "referencia": "REF003",
+              "precio": 30,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 4",
+              "referencia": "REF004",
+              "precio": 40,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido6": {
+        "cliente": {
+          "nombre": "María",
+          "apellidos": "Gómez",
+          "telefono": "987654987",
+          "direccion": {
+            "calle": "Calle del Pino",
+            "ciudad": "Granada",
+            "codigo_postal": "18001",
+            "provincia": "Granada"
+          },
+          "correo_electronico": "maria@example.com",
+          "fecha_inclusion": "2021-04-20",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "007",
+          "fecha_compra": "2021-04-25",
+          "fecha_entrega": "2021-05-05",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 18",
+              "referencia": "REF018",
+              "precio": 30,
+              "unidades": 3
+            },
+            {
+              "nombre": "Producto 19",
+              "referencia": "REF019",
+              "precio": 20,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido7": {
+        "cliente": {
+          "nombre": "Luis",
+          "apellidos": "Rodríguez",
+          "telefono": "654987654",
+          "direccion": {
+            "calle": "Avenida de la Paz",
+            "ciudad": "Toledo",
+            "codigo_postal": "45001",
+            "provincia": "Toledo"
+          },
+          "correo_electronico": "luis@example.com",
+          "fecha_inclusion": "2021-05-01",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "008",
+          "fecha_compra": "2021-05-05",
+          "fecha_entrega": "2021-05-15",
+          "total_factura": 110,
+          "productos": [
+            {
+              "nombre": "Producto 20",
+              "referencia": "REF020",
+              "precio": 50,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 21",
+              "referencia": "REF021",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido8": {
+        "cliente": {
+          "nombre": "Sara",
+          "apellidos": "Jiménez",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle de la Fuente",
+            "ciudad": "Segovia",
+            "codigo_postal": "40001",
+            "provincia": "Segovia"
+          },
+          "correo_electronico": "sara@example.com",
+          "fecha_inclusion": "2021-05-10",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "009",
+          "fecha_compra": "2021-05-15",
+          "fecha_entrega": "2021-05-25",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 22",
+              "referencia": "REF022",
+              "precio": 40,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 23",
+              "referencia": "REF023",
+              "precio": 40,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido9": {
+        "cliente": {
+          "nombre": "Diego",
+          "apellidos": "Hernández",
+          "telefono": "654321987",
+          "direccion": {
+            "calle": "Calle de la Plaza",
+            "ciudad": "Salamanca",
+            "codigo_postal": "37001",
+            "provincia": "Salamanca"
+          },
+          "correo_electronico": "diego@example.com",
+          "fecha_inclusion": "2021-06-01",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "010",
+          "fecha_compra": "2021-06-05",
+          "fecha_entrega": "2021-06-15",
+          "total_factura": 70,
+          "productos": [
+            {
+              "nombre": "Producto 24",
+              "referencia": "REF024",
+              "precio": 25,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 25",
+              "referencia": "REF025",
+              "precio": 20,
+              "unidades": 2
+            }
+          ]
+        }
+      }
+    }, 
+    "nuevo_pedido10": {
+      "trimestres": {
+        "trimestre_2": [
+          {
+            "cliente": {
+              "nombre": "Lucía",
+              "apellidos": "Martínez",
+              "telefono": "987654321",
+              "direccion": {
+                "calle": "Calle 10",
+                "ciudad": "Barcelona",
+                "codigo_postal": "08010",
+                "provincia": "Barcelona"
+              },
+              "correo_electronico": "lucia@example.com",
+              "fecha_inclusion": "2021-01-01",
+              "recurrente": true
+            },
+            "detalle_pedido": {
+              "numero_pedido": "011",
+              "fecha_compra": "2021-01-01",
+              "fecha_entrega": "2021-01-10",
+              "total_factura": 70,
+              "productos": [
+                {
+                  "nombre": "Producto 26",
+                  "referencia": "REF026",
+                  "precio": 35,
+                  "unidades": 2
+                },
+                {
+                  "nombre": "Producto 27",
+                  "referencia": "REF027",
+                  "precio": 35,
+                  "unidades": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "nuevo_pedido11": {
+        "cliente": {
+          "nombre": "Ana",
+          "apellidos": "López",
+          "telefono": "654987321",
+          "direccion": {
+            "calle": "Calle Ancha",
+            "ciudad": "Madrid",
+            "codigo_postal": "28010",
+            "provincia": "Madrid"
+          },
+          "correo_electronico": "ana@example.com",
+          "fecha_inclusion": "2021-02-20",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "012",
+          "fecha_compra": "2021-02-25",
+          "fecha_entrega": "2021-03-05",
+          "total_factura": 120,
+          "productos": [
+            {
+              "nombre": "Producto 28",
+              "referencia": "REF028",
+              "precio": 60,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 29",
+              "referencia": "REF029",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido12": {
+        "cliente": {
+          "nombre": "David",
+          "apellidos": "Sánchez",
+          "telefono": "654321987",
+          "direccion": {
+            "calle": "Calle Estrecha",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41001",
+            "provincia": "Sevilla"
+          },
+          "correo_electronico": "david@example.com",
+          "fecha_inclusion": "2021-03-01",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "013",
+          "fecha_compra": "2021-03-05",
+          "fecha_entrega": "2021-03-15",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 30",
+              "referencia": "REF030",
+              "precio": 45,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 31",
+              "referencia": "REF031",
+              "precio": 45,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido13": {
+        "cliente": {
+          "nombre": "Laura",
+          "apellidos": "Gómez",
+          "telefono": "123456789",
+          "direccion": {
+            "calle": "Calle del Sol",
+            "ciudad": "Valencia",
+            "codigo_postal": "46002",
+            "provincia": "Valencia"
+          },
+          "correo_electronico": "laura@example.com",
+          "fecha_inclusion": "2021-01-04",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "014",
+          "fecha_compra": "2021-01-04",
+          "fecha_entrega": "2021-01-12",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 32",
+              "referencia": "REF032",
+              "precio": 40,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 33",
+              "referencia": "REF033",
+              "precio": 40,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido14": {
+        "cliente": {
+          "nombre": "Sergio",
+          "apellidos": "Hernández",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle del Mar",
+            "ciudad": "Málaga",
+            "codigo_postal": "29002",
+            "provincia": "Málaga"
+          },
+          "correo_electronico": "sergio@example.com",
+          "fecha_inclusion": "2021-01-03",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "015",
+          "fecha_compra": "2021-01-05",
+          "fecha_entrega": "2021-01-15",
+          "total_factura": 70,
+          "productos": [
+            {
+              "nombre": "Producto 34",
+              "referencia": "REF034",
+              "precio": 35,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 35",
+              "referencia": "REF035",
+              "precio": 35,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido15": {
+        "cliente": {
+          "nombre": "Eva",
+          "apellidos": "Pérez",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle Mayor",
+            "ciudad": "Zaragoza",
+            "codigo_postal": "50001",
+            "provincia": "Zaragoza"
+          },
+          "correo_electronico": "eva@example.com",
+          "fecha_inclusion": "2021-02-15",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "016",
+          "fecha_compra": "2021-02-20",
+          "fecha_entrega": "2021-02-28",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 36",
+              "referencia": "REF036",
+              "precio": 30,
+              "unidades": 3
+            },
+            {
+              "nombre": "Producto 37",
+              "referencia": "REF037",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido16": {
+        "cliente": {
+          "nombre": "Carlos",
+          "apellidos": "Fernández",
+          "telefono": "987654987",
+          "direccion": {
+            "calle": "Calle del Pilar",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48002",
+            "provincia": "Vizcaya"
+          },
+          "correo_electronico": "carlos@example.com",
+          "fecha_inclusion": "2021-04-20",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "017",
+          "fecha_compra": "2021-04-25",
+          "fecha_entrega": "2021-05-05",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 38",
+              "referencia": "REF038",
+              "precio": 30,
+              "unidades": 3
+            },
+            {
+              "nombre": "Producto 39",
+              "referencia": "REF039",
+              "precio": 30,
+              "unidades": 3
+            }
+          ]
+        }
+      },
+      "nuevo_pedido17": {
+        "cliente": {
+          "nombre": "Mario",
+          "apellidos": "Gutiérrez",
+          "telefono": "654987654",
+          "direccion": {
+            "calle": "Calle del Río",
+            "ciudad": "Córdoba",
+            "codigo_postal": "14001",
+            "provincia": "Córdoba"
+          },
+          "correo_electronico": "mario@example.com",
+          "fecha_inclusion": "2021-05-01",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "018",
+          "fecha_compra": "2021-05-05",
+          "fecha_entrega": "2021-05-15",
+          "total_factura": 110,
+          "productos": [
+            {
+              "nombre": "Producto 40",
+              "referencia": "REF040",
+              "precio": 50,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 41",
+              "referencia": "REF041",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido18": {
+        "cliente": {
+          "nombre": "Marta",
+          "apellidos": "Rodríguez",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle de la Iglesia",
+            "ciudad": "Granada",
+            "codigo_postal": "18002",
+            "provincia": "Granada"
+          },
+          "correo_electronico": "marta@example.com",
+          "fecha_inclusion": "2021-05-10",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "019",
+          "fecha_compra": "2021-05-15",
+          "fecha_entrega": "2021-05-25",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 42",
+              "referencia": "REF042",
+              "precio": 40,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 43",
+              "referencia": "REF043",
+              "precio": 40,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido19": {
+        "cliente": {
+          "nombre": "Paula",
+          "apellidos": "García",
+          "telefono": "654321987",
+          "direccion": {
+            "calle": "Calle del Sol",
+            "ciudad": "Murcia",
+            "codigo_postal": "30001",
+            "provincia": "Murcia"
+          },
+          "correo_electronico": "paula@example.com",
+          "fecha_inclusion": "2021-06-01",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "020",
+          "fecha_compra": "2021-06-05",
+          "fecha_entrega": "2021-06-15",
+          "total_factura": 70,
+          "productos": [
+            {
+              "nombre": "Producto 44",
+              "referencia": "REF044",
+              "precio": 25,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 45",
+              "referencia": "REF045",
+              "precio": 20,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido20": {
+        "trimestre_3": {
+        "cliente": {
+          "nombre": "Marta",
+          "apellidos": "Sánchez",
+          "telefono": "654987321",
+          "direccion": {
+            "calle": "Calle Mayor",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08002",
+            "provincia": "Barcelona"
+          },
+          "correo_electronico": "marta@example.com",
+          "fecha_inclusion": "2021-02-20",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "021",
+          "fecha_compra": "2021-02-25",
+          "fecha_entrega": "2021-03-05",
+          "total_factura": 100,
+          "productos": [
+            {
+              "nombre": "Producto 46",
+              "referencia": "REF046",
+              "precio": 50,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 47",
+              "referencia": "REF047",
+              "precio": 25,
+              "unidades": 2
+            }
+          ]
+        }
+      }, 
+      "nuevo_pedido21": {
+        "cliente": {
+          "nombre": "Luisa",
+          "apellidos": "Pérez",
+          "telefono": "654321987",
+          "direccion": {
+            "calle": "Calle del Mar",
+            "ciudad": "Valencia",
+            "codigo_postal": "46001",
+            "provincia": "Valencia"
+          },
+          "correo_electronico": "luisa@example.com",
+          "fecha_inclusion": "2021-03-01",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "022",
+          "fecha_compra": "2021-03-05",
+          "fecha_entrega": "2021-03-15",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 48",
+              "referencia": "REF048",
+              "precio": 45,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 49",
+              "referencia": "REF049",
+              "precio": 45,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido22": {
+        "cliente": {
+          "nombre": "Ana",
+          "apellidos": "Martínez",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle Mayor",
+            "ciudad": "Madrid",
+            "codigo_postal": "28001",
+            "provincia": "Madrid"
+          },
+          "correo_electronico": "ana@example.com",
+          "fecha_inclusion": "2021-01-04",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "023",
+          "fecha_compra": "2021-01-04",
+          "fecha_entrega": "2021-01-12",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 50",
+              "referencia": "REF050",
+              "precio": 40,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 51",
+              "referencia": "REF051",
+              "precio": 40,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido23": {
+        "cliente": {
+          "nombre": "Carlos",
+          "apellidos": "Gutiérrez",
+          "telefono": "123456789",
+          "direccion": {
+            "calle": "Calle de la Fuente",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41002",
+            "provincia": "Sevilla"
+          },
+          "correo_electronico": "carlos@example.com",
+          "fecha_inclusion": "2021-01-03",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "024",
+          "fecha_compra": "2021-01-05",
+          "fecha_entrega": "2021-01-15",
+          "total_factura": 70,
+          "productos": [
+            {
+              "nombre": "Producto 52",
+              "referencia": "REF052",
+              "precio": 35,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 53",
+              "referencia": "REF053",
+              "precio": 35,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido24": {
+        "cliente": {
+          "nombre": "Laura",
+          "apellidos": "Rodríguez",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle de la Montaña",
+            "ciudad": "Málaga",
+            "codigo_postal": "29003",
+            "provincia": "Málaga"
+          },
+          "correo_electronico": "laura@example.com",
+          "fecha_inclusion": "2021-02-15",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "025",
+          "fecha_compra": "2021-02-20",
+          "fecha_entrega": "2021-02-28",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 54",
+              "referencia": "REF054",
+              "precio": 30,
+              "unidades": 3
+            },
+            {
+              "nombre": "Producto 55",
+              "referencia": "REF055",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido26": {
+        "cliente": {
+          "nombre": "Marcos",
+          "apellidos": "Ruiz",
+          "telefono": "654987321",
+          "direccion": {
+            "calle": "Calle del Pilar",
+            "ciudad": "Zaragoza",
+            "codigo_postal": "50002",
+            "provincia": "Zaragoza"
+          },
+          "correo_electronico": "marcos@example.com",
+          "fecha_inclusion": "2021-04-20",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "026",
+          "fecha_compra": "2021-04-25",
+          "fecha_entrega": "2021-05-05",
+          "total_factura": 120,
+          "productos": [
+            {
+              "nombre": "Producto 56",
+              "referencia": "REF056",
+              "precio": 60,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 57",
+              "referencia": "REF057",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido27": {
+        "cliente": {
+          "nombre": "Isabel",
+          "apellidos": "García",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle de la Playa",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48001",
+            "provincia": "Vizcaya"
+          },
+          "correo_electronico": "isabel@example.com",
+          "fecha_inclusion": "2021-03-10",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "027",
+          "fecha_compra": "2021-03-15",
+          "fecha_entrega": "2021-03-25",
+          "total_factura": 110,
+          "productos": [
+            {
+              "nombre": "Producto 58",
+              "referencia": "REF058",
+              "precio": 50,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 59",
+              "referencia": "REF059",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido28": {
+        "cliente": {
+          "nombre": "Javier",
+          "apellidos": "López",
+          "telefono": "654987321",
+          "direccion": {
+            "calle": "Calle de las Flores",
+            "ciudad": "Valencia",
+            "codigo_postal": "46002",
+            "provincia": "Valencia"
+          },
+          "correo_electronico": "javier@example.com",
+          "fecha_inclusion": "2021-05-12",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "028",
+          "fecha_compra": "2021-05-15",
+          "fecha_entrega": "2021-05-25",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 60",
+              "referencia": "REF060",
+              "precio": 40,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido29": {
+        "cliente": {
+          "nombre": "Rosa",
+          "apellidos": "Martínez",
+          "telefono": "123456789",
+          "direccion": {
+            "calle": "Calle de la Paz",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41003",
+            "provincia": "Sevilla"
+          },
+          "correo_electronico": "rosa@example.com",
+          "fecha_inclusion": "2021-06-10",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "029",
+          "fecha_compra": "2021-06-15",
+          "fecha_entrega": "2021-06-25",
+          "total_factura": 60,
+          "productos": [
+            {
+              "nombre": "Producto 61",
+              "referencia": "REF061",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido30": {
+        "cliente": {
+          "nombre": "Juan",
+          "apellidos": "Pérez",
+          "telefono": "654321987",
+          "direccion": {
+            "calle": "Calle de las Palmeras",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08003",
+            "provincia": "Barcelona"
+          },
+          "correo_electronico": "juan@example.com",
+          "fecha_inclusion": "2021-05-01",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "030",
+          "fecha_compra": "2021-05-05",
+          "fecha_entrega": "2021-05-15",
+          "total_factura": 70,
+          "productos": [
+            {
+              "nombre": "Producto 62",
+              "referencia": "REF062",
+              "precio": 35,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 63",
+              "referencia": "REF063",
+              "precio": 35,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido31": {
+        "trimestre_4": {
+        "cliente": {
+          "nombre": "Sergio",
+          "apellidos": "Rodríguez",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle Mayor",
+            "ciudad": "Madrid",
+            "codigo_postal": "28002",
+            "provincia": "Madrid"
+          },
+          "correo_electronico": "sergio@example.com",
+          "fecha_inclusion": "2021-03-20",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "031",
+          "fecha_compra": "2021-03-25",
+          "fecha_entrega": "2021-04-05",
+          "total_factura": 110,
+          "productos": [
+            {
+              "nombre": "Producto 64",
+              "referencia": "REF064",
+              "precio": 50,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 65",
+              "referencia": "REF065",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido32": {
+        "cliente": {
+          "nombre": "Elena",
+          "apellidos": "López",
+          "telefono": "654987321",
+          "direccion": {
+            "calle": "Calle de la Luna",
+            "ciudad": "Valencia",
+            "codigo_postal": "46003",
+            "provincia": "Valencia"
+          },
+          "correo_electronico": "elena@example.com",
+          "fecha_inclusion": "2021-04-10",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "032",
+          "fecha_compra": "2021-04-15",
+          "fecha_entrega": "2021-04-25",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 66",
+              "referencia": "REF066",
+              "precio": 45,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 67",
+              "referencia": "REF067",
+              "precio": 45,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido33": {
+        "cliente": {
+          "nombre": "Pedro",
+          "apellidos": "García",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle del Mar",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48002",
+            "provincia": "Vizcaya"
+          },
+          "correo_electronico": "pedro@example.com",
+          "fecha_inclusion": "2021-01-15",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "033",
+          "fecha_compra": "2021-01-20",
+          "fecha_entrega": "2021-01-30",
+          "total_factura": 120,
+          "productos": [
+            {
+              "nombre": "Producto 68",
+              "referencia": "REF068",
+              "precio": 60,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 69",
+              "referencia": "REF069",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido34": {
+        "cliente": {
+          "nombre": "Martín",
+          "apellidos": "Martínez",
+          "telefono": "654987321",
+          "direccion": {
+            "calle": "Calle de la Palma",
+            "ciudad": "Málaga",
+            "codigo_postal": "29004",
+            "provincia": "Málaga"
+          },
+          "correo_electronico": "martin@example.com",
+          "fecha_inclusion": "2021-02-25",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "034",
+          "fecha_compra": "2021-03-01",
+          "fecha_entrega": "2021-03-10",
+          "total_factura": 100,
+          "productos": [
+            {
+              "nombre": "Producto 70",
+              "referencia": "REF070",
+              "precio": 50,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 71",
+              "referencia": "REF071",
+              "precio": 50,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido35": {
+        "cliente": {
+          "nombre": "Ana",
+          "apellidos": "García",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle del Ebro",
+            "ciudad": "Zaragoza",
+            "codigo_postal": "50003",
+            "provincia": "Zaragoza"
+          },
+          "correo_electronico": "ana@example.com",
+          "fecha_inclusion": "2021-03-05",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "035",
+          "fecha_compra": "2021-03-10",
+          "fecha_entrega": "2021-03-20",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 72",
+              "referencia": "REF072",
+              "precio": 40,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido36": {
+        "cliente": {
+          "nombre": "María",
+          "apellidos": "López",
+          "telefono": "654321987",
+          "direccion": {
+            "calle": "Calle de la Libertad",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08004",
+            "provincia": "Barcelona"
+          },
+          "correo_electronico": "maria@example.com",
+          "fecha_inclusion": "2021-05-20",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "036",
+          "fecha_compra": "2021-05-25",
+          "fecha_entrega": "2021-06-05",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 73",
+              "referencia": "REF073",
+              "precio": 45,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 74",
+              "referencia": "REF074",
+              "precio": 45,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido37": {
+        "cliente": {
+          "nombre": "Miguel",
+          "apellidos": "García",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle de los Olivos",
+            "ciudad": "Valencia",
+            "codigo_postal": "46004",
+            "provincia": "Valencia"
+          },
+          "correo_electronico": "miguel@example.com",
+          "fecha_inclusion": "2021-06-01",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "037",
+          "fecha_compra": "2021-06-05",
+          "fecha_entrega": "2021-06-15",
+          "total_factura": 100,
+          "productos": [
+            {
+              "nombre": "Producto 75",
+              "referencia": "REF075",
+              "precio": 50,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido38": {
+        "cliente": {
+          "nombre": "Laura",
+          "apellidos": "Martínez",
+          "telefono": "654987321",
+          "direccion": {
+            "calle": "Calle de la Luna",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41004",
+            "provincia": "Sevilla"
+          },
+          "correo_electronico": "laura@example.com",
+          "fecha_inclusion": "2021-04-15",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "038",
+          "fecha_compra": "2021-04-20",
+          "fecha_entrega": "2021-04-30",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 76",
+              "referencia": "REF076",
+              "precio": 40,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido39": {
+        "cliente": {
+          "nombre": "Marcos",
+          "apellidos": "Pérez",
+          "telefono": "987654321",
+          "direccion": {
+            "calle": "Calle de las Flores",
+            "ciudad": "Madrid",
+            "codigo_postal": "28003",
+            "provincia": "Madrid"
+          },
+          "correo_electronico": "marcos@example.com",
+          "fecha_inclusion": "2021-05-10",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "039",
+          "fecha_compra": "2021-05-15",
+          "fecha_entrega": "2021-05-25",
+          "total_factura": 110,
+          "productos": [
+            {
+              "nombre": "Producto 77",
+              "referencia": "REF077",
+              "precio": 50,
+              "unidades": 2
+            },
+            {
+              "nombre": "Producto 78",
+              "referencia": "REF078",
+              "precio": 30,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido40": {
+        "cliente": {
+          "nombre": "Sandra",
+          "apellidos": "Rodríguez",
+          "telefono": "654321987",
+          "direccion": {
+            "calle": "Calle del Bosque",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48003",
+            "provincia": "Vizcaya"
+          },
+          "correo_electronico": "sandra@example.com",
+          "fecha_inclusion": "2021-02-01",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "040",
+          "fecha_compra": "2021-02-05",
+          "fecha_entrega": "2021-02-15",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 79",
+              "referencia": "REF079",
+              "precio": 45,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 80",
+              "referencia": "REF080",
+              "precio": 45,
+              "unidades": 1
+            }
+          ]
+        },
+        "pedidos": {
+          "2022": {
+            "trimestre_1": [
+               {
+                "cliente": {
+                  "nombre": "Elena",
+                  "apellidos": "Sánchez",
+                  "telefono": "654456789",
+                  "direccion": {
+                    "calle": "Avenida Central",
+                    "ciudad": "Alicante",
+                    "codigo_postal": "03001",
+                    "provincia": "Alicante"
+                  },
+                  "correo_electronico": "elena@example.com",
+                  "fecha_inclusion": "2021-08-10",
+                  "recurrente": true
+                },
+                "detalle_pedido": {
+                  "numero_pedido": "029",
+                  "fecha_compra": "2021-08-15",
+                  "fecha_entrega": "2021-08-25",
+                  "total_factura": 110,
+                  "productos": [
+                    {
+                      "nombre": "Producto 60",
+                      "referencia": "REF060",
+                      "precio": 55,
+                      "unidades": 1
+                    },
+                    {
+                      "nombre": "Producto 61",
+                      "referencia": "REF061",
+                      "precio": 55,
+                      "unidades": 1
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "nuevo_pedido2": {
+          "cliente": {
+            "nombre": "Sara",
+            "apellidos": "Gómez",
+            "telefono": "654123456",
+            "direccion": {
+              "calle": "Calle del Río",
+              "ciudad": "Granada",
+              "codigo_postal": "18001",
+              "provincia": "Granada"
+            },
+            "correo_electronico": "sara@example.com",
+            "fecha_inclusion": "2021-08-01",
+            "recurrente": true
+          },
+          "detalle_pedido": {
+            "numero_pedido": "027",
+            "fecha_compra": "2021-08-05",
+            "fecha_entrega": "2021-08-15",
+            "total_factura": 85,
+            "productos": [
+              {
+                "nombre": "Producto 56",
+                "referencia": "REF056",
+                "precio": 40,
+                "unidades": 1
+              },
+              {
+                "nombre": "Producto 57",
+                "referencia": "REF057",
+                "precio": 45,
+                "unidades": 1
+              }
+            ]
+          }
+        },
+        "nuevo_pedido3": {
+          "cliente": {
+            "nombre": "Javier",
+            "apellidos": "Pérez",
+            "telefono": "654789654",
+            "direccion": {
+              "calle": "Calle Mayor",
+              "ciudad": "Salamanca",
+              "codigo_postal": "37001",
+              "provincia": "Salamanca"
+            },
+            "correo_electronico": "javier@example.com",
+            "fecha_inclusion": "2021-08-05",
+            "recurrente": false
+          },
+          "detalle_pedido": {
+            "numero_pedido": "028",
+            "fecha_compra": "2021-08-10",
+            "fecha_entrega": "2021-08-20",
+            "total_factura": 95,
+            "productos": [
+              {
+                "nombre": "Producto 58",
+                "referencia": "REF058",
+                "precio": 45,
+                "unidades": 2
+              },
+              {
+                "nombre": "Producto 59",
+                "referencia": "REF059",
+                "precio": 25,
+                "unidades": 1
+              }
+            ]
+          }
+        },
+        "nuevo_pedido4": {
+          "cliente": {
+            "nombre": "Elena",
+            "apellidos": "Sánchez",
+            "telefono": "654456789",
+            "direccion": {
+              "calle": "Avenida Central",
+              "ciudad": "Alicante",
+              "codigo_postal": "03001",
+              "provincia": "Alicante"
+            },
+            "correo_electronico": "elena@example.com",
+            "fecha_inclusion": "2021-08-10",
+            "recurrente": true
+          },
+          "detalle_pedido": {
+            "numero_pedido": "029",
+            "fecha_compra": "2021-08-15",
+            "fecha_entrega": "2021-08-25",
+            "total_factura": 110,
+            "productos": [
+              {
+                "nombre": "Producto 60",
+                "referencia": "REF060",
+                "precio": 55,
+                "unidades": 1
+              },
+              {
+                "nombre": "Producto 61",
+                "referencia": "REF061",
+                "precio": 55,
+                "unidades": 1
+              }
+            ]
+          }
+        },
+        "nuevo_pedido5": {
+          "cliente": {
+            "nombre": "Marcos",
+            "apellidos": "Martínez",
+            "telefono": "654987321",
+            "direccion": {
+              "calle": "Calle Nueva",
+              "ciudad": "Toledo",
+              "codigo_postal": "45001",
+              "provincia": "Toledo"
+            },
+            "correo_electronico": "marcos@example.com",
+            "fecha_inclusion": "2021-08-15",
+            "recurrente": false
+          },
+          "detalle_pedido": {
+            "numero_pedido": "030",
+            "fecha_compra": "2021-08-20",
+            "fecha_entrega": "2021-08-30",
+            "total_factura": 75,
+            "productos": [
+              {
+                "nombre": "Producto 62",
+                "referencia": "REF062",
+                "precio": 25,
+                "unidades": 3
+              }
+            ]
+          }
+        },
+        "nuevo_pedido6": {
+          "cliente": {
+            "nombre": "Lucía",
+            "apellidos": "González",
+            "telefono": "654321654",
+            "direccion": {
+              "calle": "Avenida de la Paz",
+              "ciudad": "Córdoba",
+              "codigo_postal": "14001",
+              "provincia": "Córdoba"
+            },
+            "correo_electronico": "lucia@example.com",
+            "fecha_inclusion": "2021-08-20",
+            "recurrente": true
+          },
+          "detalle_pedido": {
+            "numero_pedido": "031",
+            "fecha_compra": "2021-08-25",
+            "fecha_entrega": "2021-09-05",
+            "total_factura": 85,
+            "productos": [
+              {
+                "nombre": "Producto 63",
+                "referencia": "REF063",
+                "precio": 30,
+                "unidades": 2
+              },
+              {
+                "nombre": "Producto 64",
+                "referencia": "REF064",
+                "precio": 25,
+                "unidades": 1
+              }
+            ]
+          }
+        },
+        "nuevo_pedido7": {
+          "cliente": {
+            "nombre": "Pablo",
+            "apellidos": "Díaz",
+            "telefono": "654789123",
+            "direccion": {
+              "calle": "Calle del Carmen",
+              "ciudad": "Valladolid",
+              "codigo_postal": "47001",
+              "provincia": "Valladolid"
+            },
+            "correo_electronico": "pablo@example.com",
+            "fecha_inclusion": "2021-08-25",
+            "recurrente": false
+          },
+          "detalle_pedido": {
+            "numero_pedido": "032",
+            "fecha_compra": "2021-08-30",
+            "fecha_entrega": "2021-09-10",
+            "total_factura": 95,
+            "productos": [
+              {
+                "nombre": "Producto 65",
+                "referencia": "REF065",
+                "precio": 50,
+                "unidades": 1
+              },
+              {
+                "nombre": "Producto 66",
+                "referencia": "REF066",
+                "precio": 45,
+                "unidades": 1
+              }
+            ]
+          }
+        },
+        "nuevo_pedido8": {
+          "cliente": {
+            "nombre": "Carmen",
+            "apellidos": "Ruiz",
+            "telefono": "654456789",
+            "direccion": {
+              "calle": "Calle Mayor",
+              "ciudad": "Burgos",
+              "codigo_postal": "09001",
+              "provincia": "Burgos"
+            },
+            "correo_electronico": "carmen@example.com",
+            "fecha_inclusion": "2021-09-01",
+            "recurrente": true
+          },
+          "detalle_pedido": {
+            "numero_pedido": "033",
+            "fecha_compra": "2021-09-05",
+            "fecha_entrega": "2021-09-15",
+            "total_factura": 80,
+            "productos": [
+              {
+                "nombre": "Producto 67",
+                "referencia": "REF067",
+                "precio": 40,
+                "unidades": 1
+              },
+              {
+                "nombre": "Producto 68",
+                "referencia": "REF068",
+                "precio": 40,
+                "unidades": 1
+              }
+            ]
+          }
+        },
+        "nuevo_pedido9": {
+          "cliente": {
+            "nombre": "Diego",
+            "apellidos": "Jiménez",
+            "telefono": "654987654",
+            "direccion": {
+              "calle": "Avenida de la Libertad",
+              "ciudad": "Santander",
+              "codigo_postal": "39001",
+              "provincia": "Cantabria"
+            },
+            "correo_electronico": "diego@example.com",
+            "fecha_inclusion": "2021-09-05",
+            "recurrente": false
+          },
+          "detalle_pedido": {
+            "numero_pedido": "034",
+            "fecha_compra": "2021-09-10",
+            "fecha_entrega": "2021-09-20",
+            "total_factura": 100,
+            "productos": [
+              {
+                "nombre": "Producto 69",
+                "referencia": "REF069",
+                "precio": 50,
+                "unidades": 2
+              }
+            ]
+          }
+        },
+        "nuevo_pedido10": {
+          "cliente": {
+            "nombre": "Raquel",
+            "apellidos": "López",
+            "telefono": "654321987",
+            "direccion": {
+              "calle": "Calle Nueva",
+              "ciudad": "Oviedo",
+              "codigo_postal": "33001",
+              "provincia": "Asturias"
+            },
+            "correo_electronico": "raquel@example.com",
+            "fecha_inclusion": "2021-09-10",
+            "recurrente": true
+          },
+          "detalle_pedido": {
+            "numero_pedido": "035",
+            "fecha_compra": "2021-09-15",
+            "fecha_entrega": "2021-09-25",
+            "total_factura": 110,
+            "productos": [
+              {
+                "nombre": "Producto 70",
+                "referencia": "REF070",
+                "precio": 50,
+                "unidades": 1
+              },
+              {
+                "nombre": "Producto 71",
+                "referencia": "REF071",
+                "precio": 60,
+                "unidades": 1
+              }
+            ]
+          }
+        },
+        "nuevo_pedido11": {
+          "trimestre_2": {
+          "cliente": {
+            "nombre": "Isabel",
+            "apellidos": "Gutiérrez",
+            "telefono": "654987123",
+            "direccion": {
+              "calle": "Calle del Mar",
+              "ciudad": "Las Palmas",
+              "codigo_postal": "35001",
+              "provincia": "Las Palmas"
+            },
+            "correo_electronico": "isabel@example.com",
+            "fecha_inclusion": "2021-09-15",
+            "recurrente": false
+          },
+          "detalle_pedido": {
+            "numero_pedido": "036",
+            "fecha_compra": "2021-09-20",
+            "fecha_entrega": "2021-09-30",
+            "total_factura": 120,
+            "productos": [
+              {
+                "nombre": "Producto 72",
+                "referencia": "REF072",
+                "precio": 60,
+                "unidades": 2
+              }
+            ]
+          }
+        }
+      },
+      "nuevo_pedido12": {
+        "cliente": {
+          "nombre": "Carlos",
+          "apellidos": "González",
+          "telefono": "654123789",
+          "direccion": {
+            "calle": "Calle Mayor",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41001",
+            "provincia": "Sevilla"
+          },
+          "correo_electronico": "carlos@example.com",
+          "fecha_inclusion": "2021-10-01",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "011",
+          "fecha_compra": "2021-10-05",
+          "fecha_entrega": "2021-10-15",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 73",
+              "referencia": "REF073",
+              "precio": 40,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 74",
+              "referencia": "REF074",
+              "precio": 50,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido13": {
+        "cliente": {
+          "nombre": "María",
+          "apellidos": "Rodríguez",
+          "telefono": "654789456",
+          "direccion": {
+            "calle": "Avenida Libertador",
+            "ciudad": "Caracas",
+            "codigo_postal": "1010",
+            "provincia": "Distrito Capital"
+          },
+          "correo_electronico": "maria@example.com",
+          "fecha_inclusion": "2021-10-05",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "012",
+          "fecha_compra": "2021-10-10",
+          "fecha_entrega": "2021-10-20",
+          "total_factura": 80,
+          "productos": [
+            {
+              "nombre": "Producto 75",
+              "referencia": "REF075",
+              "precio": 40,
+              "unidades": 2
+            }
+          ]
+        }
+      },
+      "nuevo_pedido14": {
+        "cliente": {
+          "nombre": "Ana",
+          "apellidos": "Sánchez",
+          "telefono": "654456123",
+          "direccion": {
+            "calle": "Carrera 15",
+            "ciudad": "Bogotá",
+            "codigo_postal": "11001",
+            "provincia": "Cundinamarca"
+          },
+          "correo_electronico": "ana@example.com",
+          "fecha_inclusion": "2021-10-10",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "013",
+          "fecha_compra": "2021-10-15",
+          "fecha_entrega": "2021-10-25",
+          "total_factura": 95,
+          "productos": [
+            {
+              "nombre": "Producto 76",
+              "referencia": "REF076",
+              "precio": 45,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 77",
+              "referencia": "REF077",
+              "precio": 50,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido15": {
+        "cliente": {
+          "nombre": "Luis",
+          "apellidos": "Gómez",
+          "telefono": "654987321",
+          "direccion": {
+            "calle": "Calle 20",
+            "ciudad": "Lima",
+            "codigo_postal": "15001",
+            "provincia": "Lima"
+          },
+          "correo_electronico": "luis@example.com",
+          "fecha_inclusion": "2021-10-15",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "014",
+          "fecha_compra": "2021-10-20",
+          "fecha_entrega": "2021-10-30",
+          "total_factura": 85,
+          "productos": [
+            {
+              "nombre": "Producto 78",
+              "referencia": "REF078",
+              "precio": 40,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 79",
+              "referencia": "REF079",
+              "precio": 45,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido16": {
+        "cliente": {
+          "nombre": "Eva",
+          "apellidos": "Fernández",
+          "telefono": "654321654",
+          "direccion": {
+            "calle": "Calle Central",
+            "ciudad": "Madrid",
+            "codigo_postal": "28001",
+            "provincia": "Madrid"
+          },
+          "correo_electronico": "eva@example.com",
+          "fecha_inclusion": "2021-10-20",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "015",
+          "fecha_compra": "2021-10-25",
+          "fecha_entrega": "2021-11-05",
+          "total_factura": 100,
+          "productos": [
+            {
+              "nombre": "Producto 80",
+              "referencia": "REF080",
+              "precio": 55,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 81",
+              "referencia": "REF081",
+              "precio": 45,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido17": {
+        "cliente": {
+          "nombre": "Juan",
+          "apellidos": "Martínez",
+          "telefono": "654789987",
+          "direccion": {
+            "calle": "Avenida Bolívar",
+            "ciudad": "Caracas",
+            "codigo_postal": "1010",
+            "provincia": "Distrito Capital"
+          },
+          "correo_electronico": "juan@example.com",
+          "fecha_inclusion": "2021-10-25",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "016",
+          "fecha_compra": "2021-10-30",
+          "fecha_entrega": "2021-11-10",
+          "total_factura": 110,
+          "productos": [
+            {
+              "nombre": "Producto 82",
+              "referencia": "REF082",
+              "precio": 60,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 83",
+              "referencia": "REF083",
+              "precio": 50,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido18": {
+        "cliente": {
+          "nombre": "Sofía",
+          "apellidos": "Hernández",
+          "telefono": "654456654",
+          "direccion": {
+            "calle": "Calle 25",
+            "ciudad": "Buenos Aires",
+            "codigo_postal": "C1010",
+            "provincia": "Buenos Aires"
+          },
+          "correo_electronico": "sofia@example.com",
+          "fecha_inclusion": "2021-11-01",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "017",
+          "fecha_compra": "2021-11-05",
+          "fecha_entrega": "2021-11-15",
+          "total_factura": 90,
+          "productos": [
+            {
+              "nombre": "Producto 84",
+              "referencia": "REF084",
+              "precio": 40,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 85",
+              "referencia": "REF085",
+              "precio": 50,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido19": {
+        "cliente": {
+          "nombre": "Pablo",
+          "apellidos": "Díaz",
+          "telefono": "654123456",
+          "direccion": {
+            "calle": "Carrera 20",
+            "ciudad": "Medellín",
+            "codigo_postal": "05001",
+            "provincia": "Antioquia"
+          },
+          "correo_electronico": "pablo@example.com",
+          "fecha_inclusion": "2021-11-05",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "018",
+          "fecha_compra": "2021-11-10",
+          "fecha_entrega": "2021-11-20",
+          "total_factura": 95,
+          "productos": [
+            {
+              "nombre": "Producto 86",
+              "referencia": "REF086",
+              "precio": 45,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 87",
+              "referencia": "REF087",
+              "precio": 50,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido20": {
+        "cliente": {
+          "nombre": "Laura",
+          "apellidos": "Alvarez",
+          "telefono": "654987987",
+          "direccion": {
+            "calle": "Avenida San Martín",
+            "ciudad": "Bogotá",
+            "codigo_postal": "11001",
+            "provincia": "Cundinamarca"
+          },
+          "correo_electronico": "laura@example.com",
+          "fecha_inclusion": "2021-11-10",
+          "recurrente": true
+        },
+        "detalle_pedido": {
+          "numero_pedido": "019",
+          "fecha_compra": "2021-11-15",
+          "fecha_entrega": "2021-11-25",
+          "total_factura": 100,
+          "productos": [
+            {
+              "nombre": "Producto 88",
+              "referencia": "REF088",
+              "precio": 50,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 89",
+              "referencia": "REF089",
+              "precio": 50,
+              "unidades": 1
+            }
+          ]
+        }
+      },
+      "nuevo_pedido21": {
+        "trimestre_3": {
+        "cliente": {
+          "nombre": "Gabriel",
+          "apellidos": "Ramírez",
+          "telefono": "654321789",
+          "direccion": {
+            "calle": "Calle 30",
+            "ciudad": "Buenos Aires",
+            "codigo_postal": "C1010",
+            "provincia": "Buenos Aires"
+          },
+          "correo_electronico": "gabriel@example.com",
+          "fecha_inclusion": "2021-11-15",
+          "recurrente": false
+        },
+        "detalle_pedido": {
+          "numero_pedido": "020",
+          "fecha_compra": "2021-11-20",
+          "fecha_entrega": "2021-11-30",
+          "total_factura": 105,
+          "productos": [
+            {
+              "nombre": "Producto 90",
+              "referencia": "REF090",
+              "precio": 55,
+              "unidades": 1
+            },
+            {
+              "nombre": "Producto 91",
+              "referencia": "REF091",
+              "precio": 50,
+              "unidades": 1
+            }
+          ]
+        }
+      }
+    },
+    "nuevo_pedido22": {
+      "cliente": {
+        "nombre": "Diego",
+        "apellidos": "López",
+        "telefono": "654789654",
+        "direccion": {
+          "calle": "Calle 35",
+          "ciudad": "Santiago",
+          "codigo_postal": "8320000",
+          "provincia": "Región Metropolitana"
+        },
+        "correo_electronico": "diego@example.com",
+        "fecha_inclusion": "2022-01-05",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "022",
+        "fecha_compra": "2022-01-10",
+        "fecha_entrega": "2022-01-20",
+        "total_factura": 90,
+        "productos": [
+          {
+            "nombre": "Producto 102",
+            "referencia": "REF102",
+            "precio": 45,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 103",
+            "referencia": "REF103",
+            "precio": 45,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido23": {
+      "cliente": {
+        "nombre": "Manuel",
+        "apellidos": "Gutiérrez",
+        "telefono": "654654987",
+        "direccion": {
+          "calle": "Avenida Libertador",
+          "ciudad": "Caracas",
+          "codigo_postal": "1010",
+          "provincia": "Distrito Capital"
+        },
+        "correo_electronico": "manuel@example.com",
+        "fecha_inclusion": "2022-01-10",
+        "recurrente": false
+      },
+      "detalle_pedido": {
+        "numero_pedido": "023",
+        "fecha_compra": "2022-01-15",
+        "fecha_entrega": "2022-01-25",
+        "total_factura": 85,
+        "productos": [
+          {
+            "nombre": "Producto 104",
+            "referencia": "REF104",
+            "precio": 40,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 105",
+            "referencia": "REF105",
+            "precio": 45,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido24": {
+      "cliente": {
+        "nombre": "Lucía",
+        "apellidos": "Hernández",
+        "telefono": "654321456",
+        "direccion": {
+          "calle": "Calle 40",
+          "ciudad": "Bogotá",
+          "codigo_postal": "11001",
+          "provincia": "Cundinamarca"
+        },
+        "correo_electronico": "lucia@example.com",
+        "fecha_inclusion": "2022-01-15",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "024",
+        "fecha_compra": "2022-01-20",
+        "fecha_entrega": "2022-01-30",
+        "total_factura": 100,
+        "productos": [
+          {
+            "nombre": "Producto 106",
+            "referencia": "REF106",
+            "precio": 50,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 107",
+            "referencia": "REF107",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido25": {
+      "cliente": {
+        "nombre": "Elena",
+        "apellidos": "Martínez",
+        "telefono": "654987321",
+        "direccion": {
+          "calle": "Calle Central",
+          "ciudad": "Lima",
+          "codigo_postal": "15001",
+          "provincia": "Lima"
+        },
+        "correo_electronico": "elena@example.com",
+        "fecha_inclusion": "2022-01-20",
+        "recurrente": false
+      },
+      "detalle_pedido": {
+        "numero_pedido": "025",
+        "fecha_compra": "2022-01-25",
+        "fecha_entrega": "2022-02-05",
+        "total_factura": 110,
+        "productos": [
+          {
+            "nombre": "Producto 108",
+            "referencia": "REF108",
+            "precio": 60,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 109",
+            "referencia": "REF109",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido26": {
+      "cliente": {
+        "nombre": "Santiago",
+        "apellidos": "Gómez",
+        "telefono": "654321987",
+        "direccion": {
+          "calle": "Calle 45",
+          "ciudad": "Buenos Aires",
+          "codigo_postal": "C1010",
+          "provincia": "Buenos Aires"
+        },
+        "correo_electronico": "santiago@example.com",
+        "fecha_inclusion": "2022-01-25",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "026",
+        "fecha_compra": "2022-01-30",
+        "fecha_entrega": "2022-02-10",
+        "total_factura": 95,
+        "productos": [
+          {
+            "nombre": "Producto 110",
+            "referencia": "REF110",
+            "precio": 45,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 111",
+            "referencia": "REF111",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido27": {
+      "cliente": {
+        "nombre": "Valentina",
+        "apellidos": "Díaz",
+        "telefono": "654654321",
+        "direccion": {
+          "calle": "Avenida San Martín",
+          "ciudad": "Buenos Aires",
+          "codigo_postal": "C1010",
+          "provincia": "Buenos Aires"
+        },
+        "correo_electronico": "valentina@example.com",
+        "fecha_inclusion": "2022-02-01",
+        "recurrente": false
+      },
+      "detalle_pedido": {
+        "numero_pedido": "027",
+        "fecha_compra": "2022-02-05",
+        "fecha_entrega": "2022-02-15",
+        "total_factura": 105,
+        "productos": [
+          {
+            "nombre": "Producto 112",
+            "referencia": "REF112",
+            "precio": 55,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 113",
+            "referencia": "REF113",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido28": {
+      "cliente": {
+        "nombre": "Marina",
+        "apellidos": "Alvarez",
+        "telefono": "654321789",
+        "direccion": {
+          "calle": "Carrera 30",
+          "ciudad": "Medellín",
+          "codigo_postal": "05001",
+          "provincia": "Antioquia"
+        },
+        "correo_electronico": "marina@example.com",
+        "fecha_inclusion": "2022-02-05",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "028",
+        "fecha_compra": "2022-02-10",
+        "fecha_entrega": "2022-02-20",
+        "total_factura": 100,
+        "productos": [
+          {
+            "nombre": "Producto 114",
+            "referencia": "REF114",
+            "precio": 50,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 115",
+            "referencia": "REF115",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido29": {
+      "cliente": {
+        "nombre": "Daniel",
+        "apellidos": "Ramírez",
+        "telefono": "654987123",
+        "direccion": {
+          "calle": "Carrera 35",
+          "ciudad": "Bogotá",
+          "codigo_postal": "11001",
+          "provincia": "Cundinamarca"
+        },
+        "correo_electronico": "daniel@example.com",
+        "fecha_inclusion": "2022-02-10",
+        "recurrente": false
+      },
+      "detalle_pedido": {
+        "numero_pedido": "029",
+        "fecha_compra": "2022-02-15",
+        "fecha_entrega": "2022-02-25",
+        "total_factura": 95,
+        "productos": [
+          {
+            "nombre": "Producto 116",
+            "referencia": "REF116",
+            "precio": 45,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 117",
+            "referencia": "REF117",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido30": {
+      "cliente": {
+        "nombre": "Carolina",
+        "apellidos": "González",
+        "telefono": "654321456",
+        "direccion": {
+          "calle": "Avenida Central",
+          "ciudad": "Lima",
+          "codigo_postal": "15001",
+          "provincia": "Lima"
+        },
+        "correo_electronico": "carolina@example.com",
+        "fecha_inclusion": "2022-02-15",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "030",
+        "fecha_compra": "2022-02-20",
+        "fecha_entrega": "2022-03-02",
+        "total_factura": 105,
+        "productos": [
+          {
+            "nombre": "Producto 118",
+            "referencia": "REF118",
+            "precio": 55,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 119",
+            "referencia": "REF119",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido31": {
+      "trimestre_3": {
+      "cliente": {
+        "nombre": "Alejandro",
+        "apellidos": "Fernández",
+        "telefono": "654789123",
+        "direccion": {
+          "calle": "Calle Mayor",
+          "ciudad": "Madrid",
+          "codigo_postal": "28001",
+          "provincia": "Madrid"
+        },
+        "correo_electronico": "alejandro@example.com",
+        "fecha_inclusion": "2022-02-20",
+        "recurrente": false
+      },
+      "detalle_pedido": {
+        "numero_pedido": "031",
+        "fecha_compra": "2022-02-25",
+        "fecha_entrega": "2022-03-05",
+        "total_factura": 120,
+        "productos": [
+          {
+            "nombre": "Producto 120",
+            "referencia": "REF120",
+            "precio": 70,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 121",
+            "referencia": "REF121",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido32": {
+      "cliente": {
+        "nombre": "Laura",
+        "apellidos": "Pérez",
+        "telefono": "654987789",
+        "direccion": {
+          "calle": "Calle 50",
+          "ciudad": "Buenos Aires",
+          "codigo_postal": "C1010",
+          "provincia": "Buenos Aires"
+        },
+        "correo_electronico": "laura@example.com",
+        "fecha_inclusion": "2022-02-25",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "032",
+        "fecha_compra": "2022-03-01",
+        "fecha_entrega": "2022-03-10",
+        "total_factura": 100,
+        "productos": [
+          {
+            "nombre": "Producto 122",
+            "referencia": "REF122",
+            "precio": 50,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 123",
+            "referencia": "REF123",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido33": {
+      "cliente": {
+        "nombre": "Gabriel",
+        "apellidos": "García",
+        "telefono": "654321654",
+        "direccion": {
+          "calle": "Avenida Bolívar",
+          "ciudad": "Caracas",
+          "codigo_postal": "1010",
+          "provincia": "Distrito Capital"
+        },
+        "correo_electronico": "gabriel@example.com",
+        "fecha_inclusion": "2022-03-01",
+        "recurrente": false
+      },
+      "detalle_pedido": {
+        "numero_pedido": "033",
+        "fecha_compra": "2022-03-05",
+        "fecha_entrega": "2022-03-15",
+        "total_factura": 80,
+        "productos": [
+          {
+            "nombre": "Producto 124",
+            "referencia": "REF124",
+            "precio": 40,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 125",
+            "referencia": "REF125",
+            "precio": 40,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido34": {
+      "cliente": {
+        "nombre": "Martina",
+        "apellidos": "Martínez",
+        "telefono": "654789321",
+        "direccion": {
+          "calle": "Carrera 25",
+          "ciudad": "Bogotá",
+          "codigo_postal": "11001",
+          "provincia": "Cundinamarca"
+        },
+        "correo_electronico": "martina@example.com",
+        "fecha_inclusion": "2022-03-05",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "034",
+        "fecha_compra": "2022-03-10",
+        "fecha_entrega": "2022-03-20",
+        "total_factura": 95,
+        "productos": [
+          {
+            "nombre": "Producto 126",
+            "referencia": "REF126",
+            "precio": 45,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 127",
+            "referencia": "REF127",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido35": {
+      "cliente": {
+        "nombre": "Martina",
+        "apellidos": "Martínez",
+        "telefono": "654789321",
+        "direccion": {
+          "calle": "Carrera 25",
+          "ciudad": "Bogotá",
+          "codigo_postal": "11001",
+          "provincia": "Cundinamarca"
+        },
+        "correo_electronico": "martina@example.com",
+        "fecha_inclusion": "2022-03-05",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "034",
+        "fecha_compra": "2022-03-10",
+        "fecha_entrega": "2022-03-20",
+        "total_factura": 95,
+        "productos": [
+          {
+            "nombre": "Producto 126",
+            "referencia": "REF126",
+            "precio": 45,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 127",
+            "referencia": "REF127",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido36": {
+      "cliente": {
+        "nombre": "Sara",
+        "apellidos": "López",
+        "telefono": "654987654",
+        "direccion": {
+          "calle": "Avenida Central",
+          "ciudad": "Lima",
+          "codigo_postal": "15001",
+          "provincia": "Lima"
+        },
+        "correo_electronico": "sara@example.com",
+        "fecha_inclusion": "2022-03-15",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "036",
+        "fecha_compra": "2022-03-20",
+        "fecha_entrega": "2022-03-30",
+        "total_factura": 110,
+        "productos": [
+          {
+            "nombre": "Producto 130",
+            "referencia": "REF130",
+            "precio": 60,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 131",
+            "referencia": "REF131",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido37": {
+      "cliente": {
+        "nombre": "Manuel",
+        "apellidos": "Hernández",
+        "telefono": "654321456",
+        "direccion": {
+          "calle": "Calle 40",
+          "ciudad": "Bogotá",
+          "codigo_postal": "11001",
+          "provincia": "Cundinamarca"
+        },
+        "correo_electronico": "manuel@example.com",
+        "fecha_inclusion": "2022-03-20",
+        "recurrente": false
+      },
+      "detalle_pedido": {
+        "numero_pedido": "037",
+        "fecha_compra": "2022-03-25",
+        "fecha_entrega": "2022-04-05",
+        "total_factura": 95,
+        "productos": [
+          {
+            "nombre": "Producto 132",
+            "referencia": "REF132",
+            "precio": 45,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 133",
+            "referencia": "REF133",
+            "precio": 50,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido38": {
+      "cliente": {
+        "nombre": "Andrea",
+        "apellidos": "Ruiz",
+        "telefono": "654987321",
+        "direccion": {
+          "calle": "Carrera 20",
+          "ciudad": "Medellín",
+          "codigo_postal": "05001",
+          "provincia": "Antioquia"
+        },
+        "correo_electronico": "andrea@example.com",
+        "fecha_inclusion": "2022-03-25",
+        "recurrente": true
+      },
+      "detalle_pedido": {
+        "numero_pedido": "038",
+        "fecha_compra": "2022-03-30",
+        "fecha_entrega": "2022-04-10",
+        "total_factura": 80,
+        "productos": [
+          {
+            "nombre": "Producto 134",
+            "referencia": "REF134",
+            "precio": 40,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 135",
+            "referencia": "REF135",
+            "precio": 40,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido39": {
+      "cliente": {
+        "nombre": "Ana",
+        "apellidos": "Sánchez",
+        "telefono": "654123987",
+        "direccion": {
+          "calle": "Calle 15",
+          "ciudad": "Santiago",
+          "codigo_postal": "8320000",
+          "provincia": "Metropolitana de Santiago"
+        },
+        "correo_electronico": "ana@example.com",
+        "fecha_inclusion": "2022-03-30",
+        "recurrente": false
+      },
+      "detalle_pedido": {
+        "numero_pedido": "039",
+        "fecha_compra": "2022-04-05",
+        "fecha_entrega": "2022-04-15",
+        "total_factura": 90,
+        "productos": [
+          {
+            "nombre": "Producto 136",
+            "referencia": "REF136",
+            "precio": 45,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 137",
+            "referencia": "REF137",
+            "precio": 45,
+            "unidades": 1
+          }
+        ]
+      }
+    },
+    "nuevo_pedido40": {
+      "cliente": {
+        "nombre": "Ana",
+        "apellidos": "Sánchez",
+        "telefono": "654123987",
+        "direccion": {
+          "calle": "Calle 15",
+          "ciudad": "Santiago",
+          "codigo_postal": "8320000",
+          "provincia": "Metropolitana de Santiago"
+        },
+        "correo_electronico": "ana@example.com",
+        "fecha_inclusion": "2022-03-30",
+        "recurrente": false
+      },
+      "detalle_pedido": {
+        "numero_pedido": "039",
+        "fecha_compra": "2022-04-05",
+        "fecha_entrega": "2022-04-15",
+        "total_factura": 90,
+        "productos": [
+          {
+            "nombre": "Producto 136",
+            "referencia": "REF136",
+            "precio": 45,
+            "unidades": 1
+          },
+          {
+            "nombre": "Producto 137",
+            "referencia": "REF137",
+            "precio": 45,
+            "unidades": 1
+          }
+        ]
+      }
+    } 
+  }
+}
+      }
+    }
+  }
+}
+
